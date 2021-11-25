@@ -1,10 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        <link rel="stylesheet" href="stylesheet.css">  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+        <title>Frontend Mentor | Time tracking dashboard</title>
+
 </head>
 <body>
+<div class="container mx-auto m-8  w-3/4 max-w-max">
+
+        <main class="profile bg-indigo-800 rounded-3xl">
+                <section class=" flex justify-center  bg-purple-500 p-1 rounded-3xl" >
+                        <img class="w-32 max-w-xs m-3 border-4 border-white-500 rounded-full" src="images/image-jeremy.png" alt="profile-picture">
+                        <h2 class="text-lg my-auto text-purple-400 mr-4">Report for <span class="block text-2xl text-white">Jeremy Robson</span></h2>
+                </section>
+
+                <section class=" flex justify-around  bg-indigo-800 p-4 rounded-3xl">
+                        <a href="#">Daily</a>
+                        <a href="#">Weekly</a>
+                        <a href="#">Monthly</a>
+
+                </section>
+        </main>
+
+        <div class="work bg-yellow-600 rounded-3xl mt-8 relative">
+                <img class=" absolute right-1.5" src="images/icon-work.svg" alt="work-icon" >
+                <div class="bg-yellow-600 rounded-t-3xl  h-16 ">
+                        <!--icon container-->
+                </div>
+                <div class="px-7 pt-6 bg-indigo-800 rounded-t-3xl ">
+                        <h2>Work</h2>
+                        <!--favicon-->
+                </div>
+                <div class="px-7 bg-indigo-800 pb-8 rounded-b-3xl ">
+                        <p>32hrs</p>
+                        <p>Last Week - 32hrs</p>
+                </div>
+        </div>
+
+        <!-- <div class="play bg-indigo-800 rounded-3xl mt-8 p-8">
+           <div>
+             &lt;!&ndash;icon container&ndash;&gt;
+           </div>
+           <div>
+             <h2>Play</h2>
+             &lt;!&ndash;favicon&ndash;&gt;
+           </div>
+           <div>
+             <p>10hrs</p>
+             <p>Last Week - 8hrs</p>
+           </div>
+         </div>
+
+         <div class="study bg-indigo-800 rounded-3xl mt-8 p-8">
+           <div>
+             &lt;!&ndash;icon container&ndash;&gt;
+           </div>
+           <div>
+             <h2>Study</h2>
+             &lt;!&ndash;favicon&ndash;&gt;
+           </div>
+           <div>
+             <p>4hrs</p>
+             <p>Last Week - 7hrs</p>
+           </div>
+         </div>
+
+       <div class="exercise bg-indigo-800 rounded-3xl mt-8 p-8">
+         <div>
+           &lt;!&ndash;icon container&ndash;&gt;
+         </div>
+         <div>
+           <h2>Exercise</h2>
+           &lt;!&ndash;favicon&ndash;&gt;
+         </div>
+         <div>
+           <p>4hrs</p>
+           <p>Last Week - 5hrs</p>
+         </div>
+       </div>
+
+       <div class="social bg-indigo-800 rounded-3xl mt-8 p-8">
+         <div>
+           &lt;!&ndash;icon container&ndash;&gt;
+         </div>
+         <div>
+           <h2>Social</h2>
+           &lt;!&ndash;favicon&ndash;&gt;
+         </div>
+         <div>
+           <p>5hrs</p>
+           <p>Last Week - 10hrs</p>
+         </div>
+       </div>
+
+       <div class="self bg-indigo-800 rounded-3xl mt-8 p-8">
+         <div>
+           &lt;!&ndash;icon container&ndash;&gt;
+         </div>
+         <div>
+           <h2>Self Care</h2>
+           &lt;!&ndash;favicon&ndash;&gt;
+         </div>
+         <div>
+           <p>2hrs</p>
+           <p>Last Week - 2hrs</p>
+         </div>
+       </div>
+       -->
+</div>
+
+
+<div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+</div>
 
 </body>
 </html>
